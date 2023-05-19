@@ -5,6 +5,7 @@ import { persistor, store } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import Loading from './components/LoadingComponent';
 
+// Making a change here
 export default function App() {
     return (
         <Provider store={store}>
